@@ -1,0 +1,24 @@
+# Secrets (never commit these)
+.env
+.env.*
+!.env.example
+frontend/.streamlit/secrets.toml
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+backend/logs/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Data and models
+*.csv
+*.pkl
+*.safetensors
